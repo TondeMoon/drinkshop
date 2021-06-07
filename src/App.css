@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.frontPage-top {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.frontPage-header {
+  font-family: 'Sigmar One', cursive;
+  font-size: 3rem;
+  padding: 2%;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.frontPage-header h1 {
+  margin: 0;
+}
+
+.frontPage-logo {
+  padding: 2%;
+  width: 20%;
+}
+
+@media (max-width: 750px) {
+  .frontPage-logo {
+    padding: 2%;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .frontPage-top {
+    display: flex;
+    justify-content: center;
   }
+
+  .product-card {
+    width: 100vw;
+  }
+
+  .product-name-description {
+    margin: 3%;
+  }
+  .product-card-buttons-and-quantity {
+    width: 100px;
+  }
+  .pagination-itemsPerPage {
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    width: 70%;
+    height: 100px;
+  }
+  /* .pagination-buttons-group {
+    display: flex;
+    flex-direction: row;
+  } */
 }

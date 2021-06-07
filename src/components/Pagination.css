@@ -1,0 +1,26 @@
+.pagination-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px 20px 10px 20px;
+  font-size: 1rem;
+  background-color: rgb(100, 24, 100);
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.pagination-itemsPerPage {
+  width: 8%;
+  position: absolute;
+  top: 60%;
+  left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination-name {
+  padding: 5%;
+}
